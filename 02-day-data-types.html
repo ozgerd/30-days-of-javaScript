@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+
+	<button onclick="alert ('Welcome to second day of JavaScript!');">Click</button>
+	<button onclick="alert ('We are learning JavaScript');">Continue</button>
+	<button onclick="alert('Add your third button on to then move on to the next part');">Done</button>
+
+<script>
+let age = 18;
+let budget = 3000;
+let idCard = true;
+let healthCheck = false;
+let examRight = 3;
+
+console.log ((age > 18 && budget > 2000) || (idCard && examRight >1));
+
+let numOne = 2;
+let numTwo = 7;
+console.log (numOne < numTwo);
+console.log (numOne == numTwo);
+
+let lightOn = (false);
+let lightOff =(true);
+console.log(lightOn != lightOff);
+
+// let color = [blue, gray, yellow];
+// let colors = [blue, gray, yellow];
+// console.log (color == colors);
+
+const PI = Math.PI;
+console.log(PI);
+
+console.log(Math.round(PI));
+console.log(Math.floor(PI));
+console.log(Math.ceil(PI));
+console.log(Math.min(PI));
+console.log(Math.random(PI));
+console.log(Math.abs(PI));
+
+let randomNum = Math.random();
+let numBtwZeroAndOne = randomNum * 1;
+console.log (numBtwZeroAndOne);
+
+let space = ' ';
+let name = 'Tricia';
+let lastName = 'McMillan';
+let country = 'UK';
+let city = 'London';
+let ag = 23;
+
+let fullInfo = name + space + lastName + space + country + space + city + space + ag;
+console.log(fullInfo);
+
+let text = `Welcome ${name}, ${lastName}`;
+console.log(text);
+
+let string = 'Tricia';
+let firstLetter = string [0];
+let secondLetter = string [1];
+let fourtLetter = string [3];
+let fifthLetter = string [4];
+let sixthLetter = string [5];
+
+console.log (firstLetter);
+
+
+let thirdLetter = string [2];
+console.log (thirdLetter);
+console.log (thirdLetter.toUpperCase());
+console.log (firstLetter.toLowerCase());
+
+let challenge = '30 Days of JavaScript';
+console.log (challenge);
+console.log (challenge.length);
+console.log(challenge.toUpperCase());
+console.log(challenge.toLowerCase());
+console.log(challenge.substr(3,5));
+console.log(challenge.substring(3,7));
+console.log(challenge.split());
+console.log(challenge.split(' '));
+console.log(firstLetter.split(' , '));
+
+let colors = 'blue, green, gray, yellow, white, black';
+console.log(colors.split(' , '));
+console.log (challenge.replace ('JavaScript', 'Apex'));
+console.log(challenge.replace ('30', '100'));
+console.log (challenge.replace ('30', '3', 'JavaScript', 'Apex'));
+console.log(challenge.charAt(15));
+console.log(challenge.charAt(11));
+console.log (challenge.indexOf('a'));
+console.log(challenge.indexOf('D'));
+console.log(challenge.lastIndexOf('Days'));
+
+let sentence = 'You cannot end a sentence with because because because is a conjunction';
+console.log (sentence.indexOf('because'));
+console.log(sentence.lastIndexOf('because'));
+
+let selectedColors = ['red', 'blue'];
+selectedColors [2] = 'green';
+selectedColors [3] = 1;
+console.log(selectedColors);
+console.log (selectedColors.length);
+
+function greet (name, lastName){ // parameter
+console.log('Hello ' + name + ' ' + lastName) ;
+}
+
+greet ('Tricia', 'McMillan'); //argument
+greet ('Arthur', 'Dent');
+
+
+let word ='You cannot end a sentence with because because because is a conjunction'
+console.log(word.search("because"))
+
+let trimWord = ' 30 Days Of JavaScript '
+console.log(trimWord.trim (' '))
+
+let wordStart =  "30 Days Of JavaScript"
+console.log(wordStart.startsWith ("JavaScript"))
+console.log(wordStart.startsWith ("30"))
+console.log(wordStart.endsWith ("30"))
+console.log(wordStart.endsWith ("JavaScript"))
+
+let wordA = '30'
+console.log(wordA.concat ("Days", "of", "JavaScript"))
+
+let gb = 'Hi'
+console.log(gb.repeat(10))
+
+let ty = "10"
+let tt = 10
+console.log (ty === tt)
+
+let ps = 9.8
+let ts = 10
+console.log(ps == ts)
+
+let word1 = "Python"
+let word2 = "I hope this course is not full of jargon"
+
+console.log (word1.search ("on"))
+console.log(word1.includes ("on"))
+console.log(word2.includes("jargon") )
+
+let randomNumber = Math.random()
+console.log(randomNumber)
+
+let randomNu = randomNumber * 99
+console.log(randomNu)
+
+let genRan = Math.random * 255
+console.log(genRan)
+
+let sen = 'You cannot end a sentence with because because because is a conjunction'
+console.log(sen.match("because"))
+console.log(sen.indexOf("because"))
+
+let salary = 5000;
+let annualBonus = 10000;
+let onlineCourses = 1500;
+
+let sum = salary + annualBonus + onlineCourses;
+console.log(sum)
+
+
+
+	</script>
+</body>
+</html
